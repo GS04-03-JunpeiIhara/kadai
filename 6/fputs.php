@@ -38,7 +38,9 @@
         ?>
         <main>
             ご入力ありがとうございました。
+            <br>
             <a href="input_data.html">戻る</a>
+            <br>
             <a href="output_data.html">アンケート結果</a>
         </main>
 </body>
