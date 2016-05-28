@@ -49,12 +49,12 @@ $result = $stmt->fetch();
 <form method="post" action="update.php">
     <legend>アンケート更新</legend>
      <label>名前：<input type="text" name="name" value="<?=$result["name"]?>"></label><br>
-     <label>ID：<input type="text" name="id" value="<?=$result["email"]?>"></label><br>
+     <label>ID：<input type="text" name="id" value="<?=$result["id"]?>"></label><br>
      
      
-     <label>ID：<input type="text" name="email" value="<?=$result["email"]?>"></label><br>
-     <label>年齢：<input type="text" name="age" placeholder="例)43"></label><br>     
-     <label><textArea name="naiyou" rows="4" cols="40"><?=$result["naiyou"]?></textArea></label><br>     
+     <label>LID：<input type="text" name="lid" value="<?=$result["lid"]?>"></label><br>
+     <label>LPW<input type="password" name="lpw" placeholder="例)"></label><br>     
+
      <input type="hidden" name="id" value="<?=$result["id"]?>">
      <input type="submit" value="更新">
 </form>
